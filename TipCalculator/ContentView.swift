@@ -77,7 +77,7 @@ struct ContentView: View {
         VStack {
             HStack {
                 Image(systemName: "dollarsign.circle.fill")
-                    .imageScale(.large)
+                    .imageScale(.medium)
                     .foregroundColor(.accentColor)
                     .font(.title)
                 Text("Tip Calculator")
